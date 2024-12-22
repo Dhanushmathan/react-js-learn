@@ -1,0 +1,171 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Naruto Uzumaki",
+            "village": "Konohagakure",
+            "rank": "Hokage",
+            "image": "https://mfiles.alphacoders.com/791/thumb-1920-791273.jpg",
+            "skills": [
+                "Rasengan",
+                "Shadow Clone Jutsu",
+                "Sage Mode",
+                "Kurama Chakra Mode"
+            ],
+            "team": "Team 7"
+        },
+        {
+            "id": 2,
+            "name": "Sasuke Uchiha",
+            "village": "Konohagakure",
+            "rank": "Rogue Ninja",
+            "image": "https://i.pinimg.com/474x/f9/07/af/f907af8d969da298628688da5b8d61a4.jpg",
+            "skills": [
+                "Sharingan",
+                "Chidori",
+                "Amaterasu",
+                "Susanoo"
+            ],
+            "team": "Team 7"
+        },
+        {
+            "id": 3,
+            "name": "Sakura Haruno",
+            "village": "Konohagakure",
+            "rank": "Jonin",
+            "image": "https://i.pinimg.com/736x/f0/ea/a7/f0eaa760e94f94dd934995003f820a69.jpg",
+            "skills": [
+                "Medical Ninjutsu",
+                "Chakra Enhanced Strength",
+                "Summoning Jutsu"
+            ],
+            "team": "Team 7"
+        },
+        {
+            "id": 4,
+            "name": "Kakashi Hatake",
+            "village": "Konohagakure",
+            "rank": "6th Hokage",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-IZ4r1s-tEhhing_GBIyIWlaszWqNbKz8g&s",
+            "skills": [
+                "Sharingan",
+                "Chidori",
+                "Lightning Blade",
+                "Kamui"
+            ],
+            "team": "Team 7 (Leader)"
+        },
+        {
+            "id": 5,
+            "name": "Itachi Uchiha",
+            "village": "Konohagakure",
+            "rank": "ANBU Captain",
+            "image": "https://mrwallpaper.com/images/thumbnail/itachi-phone-uchiha-naruto-qv5etf5a6v8hau03.webp",
+            "skills": [
+                "Sharingan",
+                "Amaterasu",
+                "Tsukuyomi",
+                "Susanoo"
+            ],
+            "team": "Akatsuki"
+        },
+        {
+            "id": 6,
+            "name": "Pain (Nagato)",
+            "village": "Amegakure",
+            "rank": "Akatsuki Leader",
+            "image": "https://i.pinimg.com/474x/62/a4/dd/62a4dd8eb10b0c8a60a3499080213fbe.jpg",
+            "skills": [
+                "Rinnegan",
+                "Shinra Tensei",
+                "Chibaku Tensei",
+                "Summoning: Gedo Statue"
+            ],
+            "team": "Akatsuki"
+        },
+        {
+            "id": 7,
+            "name": "Gaara",
+            "village": "Sunagakure",
+            "rank": "Kazekage",
+            "image": "https://www.wallpapersun.com/wp-content/uploads/2020/12/Gaara-Wallpaper-background-23-200x300.jpg",
+            "skills": [
+                "Sand Manipulation",
+                "Shield of Sand",
+                "Desert Coffin",
+                "Magnet Release"
+            ],
+            "team": "N/A"
+        },
+        {
+            "id": 8,
+            "name": "Madara Uchiha",
+            "village": "Konohagakure",
+            "rank": "Legendary Ninja",
+            "image": "https://wallpapercave.com/wp/wp10583690.jpg",
+            "skills": [
+                "Sharingan",
+                "Eternal Mangekyo Sharingan",
+                "Rinnegan",
+                "Susanoo"
+            ],
+            "team": "N/A"
+        },
+        {
+            "id": 9,
+            "name": "Hashirama Senju",
+            "village": "Konohagakure",
+            "rank": "1th Hokage",
+            "image": "https://w0.peakpx.com/wallpaper/492/248/HD-wallpaper-hashirama-hashirama-senju-hashirama-hokage-hokage-1-levi-sasuke-senju-uchiha-thumbnail.jpg",
+            "skills": [
+                "Wood Release",
+                " Sage Art: Gate of the Great God",
+                "Barrier Ninjutsu",
+                "Wood Dragons"
+            ],
+            "team": "N/A"
+        },
+        {
+            "id": 10,
+            "name": "Tobirama Senju",
+            "village": "Konohagakure",
+            "rank": "2th Hokage",
+            "image": "https://w0.peakpx.com/wallpaper/1005/847/HD-wallpaper-tobirama-senju-naruto-uchiha-ninja-shippuden-leaf-hashirama.jpg",
+            "skills": [
+                "Sensor Type",
+                "Sage Art: Gate of the Great God",
+                "Sword of Thunder God",
+                "Barrier Ninjutsu"
+            ],
+            "team": "N/A"
+        },
+        {
+            "id": 11,
+            "name": "Minato Namikaze",
+            "village": "Konohagakure",
+            "rank": "4th Hokage",
+            "image": "https://w0.peakpx.com/wallpaper/715/360/HD-wallpaper-minato-namikaze-anime.jpg",
+            "skills": [
+                "Jinchūriki",
+                "Flying Thunder God",
+                "Space–Time Ninjutsu",
+                "Big Ball Rasengan"
+            ],
+            "team": "N/A"
+        },
+        {
+            "id": 12,
+            "name": "Jiraiya",
+            "village": "Konohagakure",
+            "rank": "The Legendary Sannin",
+            "image": "https://w0.peakpx.com/wallpaper/235/928/HD-wallpaper-jiraiya-and-naruto-aesthetic-jiraya-sad-thumbnail.jpg",
+            "skills": [
+                "Sexy Technique",
+                "Sage Art: Goemon",
+                "Mount Myōboku TOAD Summon",
+                "Ultra-Big Ball Rasengan"
+            ],
+            "team": "N/A"
+        }
+    ]
+}

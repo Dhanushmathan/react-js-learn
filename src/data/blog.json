@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to ReactJS",
+        "desc": "Welcome to my first blog using ReactJS! Here, I will explore how easy and flexible it is to create a blog layout with reusable components.",
+        "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+    },
+    {
+        "id": 2,
+        "title": "What is ReactJS?",
+        "desc": "ReactJS is a popular JavaScript library that helps in building dynamic and interactive user interfaces efficiently. Its component-based structure makes it developer-friendly.",
+        "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+    },
+    {
+        "id": 3,
+        "title": "Features of ReactJS",
+        "desc": "Some key features of React include Virtual DOM, JSX syntax, component-based architecture, and unidirectional data flow.",
+        "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+    },
+    {
+        "id": 4,
+        "title": "Conclusion",
+        "desc": "ReactJS is a powerful tool for web developers. Start exploring it today to build fast and scalable web applications!",
+        "img": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+    }
+]
