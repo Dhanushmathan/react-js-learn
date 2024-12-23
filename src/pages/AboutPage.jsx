@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import Accordion from "../components/AcCordion";
+import Accordion from "../components/Accordion";
 
 const AboutPage = () => {
 

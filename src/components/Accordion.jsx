@@ -16,7 +16,7 @@ const Accordion = (props) => {
                 ><path fill="currentColor" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4z" /></svg>
             </div>
             <div className={"bg-gray-50 p-5" + (accordionActiveState ? " block" : " hidden")}>
-                <p>{props.children ? props.children : props.desc}</p>
+                <span>{props.children ? props.children : props.desc}</span>
             </div>
         </div>
     )
