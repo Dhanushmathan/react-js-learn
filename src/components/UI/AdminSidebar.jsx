@@ -3,7 +3,7 @@ import UserContext from '../../contexts/UserContext';
 
 const AdminSidebar = () => {
 
-    const user = useContext(UserContext);
+    const { user } = useContext(UserContext);
 
     return (
         <div className='bg-white p-10 rounded'>

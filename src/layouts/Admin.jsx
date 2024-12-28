@@ -6,7 +6,7 @@ import UserContext from '../contexts/UserContext';
 
 const AdminLayout = () => {
 
-    const [user] = useState({
+    const [user, setUser] = useState({
         userId: 1,
         userName: "Itachi",
         isLoggIn: true,
@@ -14,7 +14,7 @@ const AdminLayout = () => {
 
     return (
         <div className='bg-gray-300 min-h-screen pb-10'>
-            <UserContext.Provider value={user}>
+            <UserContext.Provider value={{ user, setUser }}>
                 <AdminNavbar />
                 {/* Left Side bar */}
                 <div className='flex m-5 space-x-10'>
