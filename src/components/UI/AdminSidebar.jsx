@@ -1,7 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types';
+import React, { useContext } from 'react'
+import UserContext from '../../contexts/UserContext';
 
-const AdminSidebar = ({ user }) => {
+const AdminSidebar = () => {
+
+    const user = useContext(UserContext);
+
     return (
         <div className='bg-white p-10 rounded'>
             <h4 className='font-semibold'>Welcome {user.userName}</h4>
@@ -10,8 +13,5 @@ const AdminSidebar = ({ user }) => {
     )
 }
 
-AdminSidebar.propTypes = {
-    user: PropTypes.string,
-}
 
 export default AdminSidebar;

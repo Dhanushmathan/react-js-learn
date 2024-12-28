@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
-import PropType from 'prop-types';
+import UserContext from "../../contexts/UserContext";
+import { useContext } from "react";
 
-const AdminNavbar = ({ user }) => {
+const AdminNavbar = () => {
+
+    const user = useContext(UserContext);
+    console.log(user);
 
     return (
         <div className="bg-teal-950 px-10 py-5 flex items-center justify-between">
@@ -10,9 +14,7 @@ const AdminNavbar = ({ user }) => {
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mathan's Blog!</span>
             </Link>
             <ul className="font-medium text-white flex space-x-4">
-                <li>
-                    <Link to={'/admin/dashboard'} className="">Welcome {user.userName}</Link>
-                </li>
+                <li>Welcome {user.userName}</li>
                 <li>
                     <Link to={'#'} className="">Logout</Link>
                 </li>
@@ -20,9 +22,5 @@ const AdminNavbar = ({ user }) => {
         </div>
     )
 };
-
-AdminNavbar.propTypes = {
-    user: PropType.string,
-}
 
 export default AdminNavbar;

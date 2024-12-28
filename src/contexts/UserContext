@@ -1,0 +1,9 @@
+import { createContext } from 'react'
+
+const UserContext = createContext({
+    // userId: 1,
+    // userName: "Kakashi",
+    // isLoggIn: true,
+});
+
+export default UserContext;
