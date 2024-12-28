@@ -10,6 +10,7 @@ import ErrorPage from './pages/ErrorPage.jsx'
 import FollowersPage from './pages/FollowersPage.jsx'
 import AdminLayout from './layouts/Admin.jsx';
 import DashBoardPage from './pages/admin/DashBoard.jsx'
+import ManageBlogs from './pages/admin/ManageBlogs.jsx'
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
     children: [
       { path: "", element: <DashBoardPage /> },
       { path: "dashboard", element: <DashBoardPage /> },
+      { path: "blogs", element: <ManageBlogs /> },
     ],
   },
 ]);
